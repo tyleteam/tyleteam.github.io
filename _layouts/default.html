@@ -14,7 +14,10 @@
     </div>
 
     {% include footer.html %}
+    <script src="{{ site.asset_url }}/lib/jquery-3.1.1.min.js"></script>
 
+    {% if site.google_analytics %}
+      {% include google_analytics.html %}
+    {% endif %}
   </body>
-
 </html>

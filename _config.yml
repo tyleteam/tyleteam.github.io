@@ -1,0 +1,36 @@
+# Site settings
+title: tyle
+email: contact@tyle.io
+description: |
+  세상에서 제일 가벼운 카드뉴스 제작툴
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://blog.tyle.io" # the base hostname & protocol for your site
+
+github_username: tyleteam 
+
+timezone: Asia/Seoul
+
+repository: tyleteam/tyleteam.github.io
+
+permalink: /:year/:month/:day/:title/
+
+# Build settings
+markdown: kramdown
+
+krandown:
+  input: GFM
+  highlighter: rouge
+
+gems:
+  - jekyll-paginate
+
+paginate: 5
+paginate_path: '/page/:num/'
+
+exclude: [README.md, Gemfile, Gemfile.lock]
+
+keep_files: [assets, files]
+
+author: contact@tyle.io
+asset_url: /assets
+

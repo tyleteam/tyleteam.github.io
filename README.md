@@ -94,7 +94,7 @@ git push
 - 포스트는 `_posts` 폴더에 작성합니다.
 - 포스트 파일 네이밍 규칙 `year-month-day-title.md` 형식(ex: 2016-11-21-react.md)
  - title은 영문 및, 하이픈(-)만 사용(고유 url로 사용됌)
- - 최종적으로 포스트의 url(permalink)는 http://blog.tyle.io/yyyy/mm/dd/title/
+ - 최종적으로 포스트의 url(permalink)는 http://blog.tyle.io/title/
 
 ## 글쓰기
 - 포스트 상단에 [front-matter](https://jekyllrb-ko.github.io/docs/frontmatter/)를 작성한다.

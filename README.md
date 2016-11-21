@@ -32,6 +32,11 @@ source .bash_profile
 
 ##github pages 생성
 - github pages 생성후 clone하기
+
+````
+git clone https://github.com/tyleteam/tyleteam.github.io.git
+````
+
 - clone 받은 repository로 이동
 
 ````

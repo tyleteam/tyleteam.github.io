@@ -27,7 +27,8 @@ rvm —default use 2.2.4
 
 ````
 export PATH=$PAHT:path <- 작성하는곳 여기다 작성하자.
-source .bash_profile
+
+$ source .bash_profile
 ````
 
 ##github pages 생성
@@ -49,20 +50,10 @@ cd tyleteam.github.io/
 gem install bundler
 ````
 
-- Gemfile 생성 후 작성
-
-````
-vi Gemfile
-
-// 아래 작성 후 저장
-source 'https://rubygems.org' 
-gem 'github-pages', group: :jekyll_plugins
-````
-
 - gem plugin 설치
 
 ````
-bundle install 
+bundle 
 ````
 
 ##jekyll 설치
@@ -115,3 +106,16 @@ tags: [first,post,test]
 # 작가등록
 - 최초 등록자는 `_authors` 폴더에 등록바람
 - sample은 `_authors` 에 있는 파일 참고
+
+##issue
+- nokogiri install failed solved
+
+````
+http://stackoverflow.com/questions/40038953/installing-nokogiri-on-mac-os-sierra-10-12
+````
+
+
+## 참고
+- [jekyll 설치법](http://blog.saltfactory.net/jekyll/upgrade-github-pages-dependency-versions.html)
+- [gem bundler 설치법](http://stackoverflow.com/questions/34459720/rails-bundle-command-not-found/34460297)
+- [github pages](https://help.github.com/articles/user-organization-and-project-pages/)

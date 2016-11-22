@@ -27,7 +27,8 @@ rvm —default use 2.2.4
 
 ````
 export PATH=$PAHT:path <- 작성하는곳 여기다 작성하자.
-source .bash_profile
+
+$ source .bash_profile
 ````
 
 ##github pages 생성
@@ -47,16 +48,6 @@ cd tyleteam.github.io/
 
 ````
 gem install bundler
-````
-
-- Gemfile 생성 후 작성
-
-````
-vi Gemfile
-
-// 아래 작성 후 저장
-source 'https://rubygems.org' 
-gem 'github-pages', group: :jekyll_plugins
 ````
 
 - gem plugin 설치

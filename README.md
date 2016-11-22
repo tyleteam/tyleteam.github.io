@@ -116,6 +116,13 @@ tags: [first,post,test]
 - 최초 등록자는 `_authors` 폴더에 등록바람
 - sample은 `_authors` 에 있는 파일 참고
 
+##issue
+- nokogiri install failed solved
+
+````
+http://stackoverflow.com/questions/40038953/installing-nokogiri-on-mac-os-sierra-10-12
+````
+
 
 ## 참고
 - [jekyll 설치법](http://blog.saltfactory.net/jekyll/upgrade-github-pages-dependency-versions.html)

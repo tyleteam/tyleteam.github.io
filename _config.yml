@@ -12,7 +12,7 @@ timezone: Asia/Seoul
 
 repository: tyleteam/tyleteam.github.io
 
-permalink: /:title/
+permalink: /:categories/:title/
 
 # Build settings
 markdown: kramdown
@@ -23,6 +23,7 @@ krandown:
 
 gems:
   - jekyll-paginate
+  - jekyll-paginate-categories
 
 collections:
   author:
@@ -44,12 +45,17 @@ defaults:
     values:
       layout: tag
 
+categories: tech, marketing
+
 paginate: 5
-paginate_path: '/page/:num/'
+paginate_path: '/page/:num'
+
+paginate_category_basepath: '/:name/'
+paginate_category_layout: 'categories.html'
 
 exclude: [README.md, Gemfile, Gemfile.lock]
 
-keep_files: [assets, files]
+keep_files: [assets]
 
 author: contact@tyle.io
 

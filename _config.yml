@@ -23,6 +23,7 @@ krandown:
 
 gems: 
   - jekyll-paginate
+  - jekyll-paginate-categories
 
 collections:
   author:

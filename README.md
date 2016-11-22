@@ -56,13 +56,6 @@ gem install bundler
 bundle 
 ````
 
-##jekyll 설치
-- jekyll 설치
-
-````
-jekyll new . --force
-````
-
 # 실행
 - jekyll 서버 실행
 

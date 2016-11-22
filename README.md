@@ -53,7 +53,7 @@ gem install bundler
 - gem plugin 설치
 
 ````
-bundle install 
+bundle 
 ````
 
 ##jekyll 설치

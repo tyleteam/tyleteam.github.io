@@ -21,9 +21,7 @@ krandown:
   input: GFM
   highlighter: rouge
 
-gems:
-  - jekyll-paginate
-  - jekyll-paginate-categories
+gems: [jekyll-paginate, jekyll-paginate-categories]
 
 collections:
   author:
@@ -48,6 +46,7 @@ defaults:
 categories: tech, marketing
 
 paginate: 5
+
 paginate_path: '/page/:num'
 
 paginate_category_basepath: '/:name/'

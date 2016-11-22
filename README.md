@@ -115,3 +115,9 @@ tags: [first,post,test]
 # 작가등록
 - 최초 등록자는 `_authors` 폴더에 등록바람
 - sample은 `_authors` 에 있는 파일 참고
+
+
+## 참고
+[jekyll 설치법](http://blog.saltfactory.net/jekyll/upgrade-github-pages-dependency-versions.html)
+[gem bundler 설치법](http://stackoverflow.com/questions/34459720/rails-bundle-command-not-found/34460297)
+[github pages](https://help.github.com/articles/user-organization-and-project-pages/)

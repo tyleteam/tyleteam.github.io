@@ -118,6 +118,6 @@ tags: [first,post,test]
 
 
 ## 참고
-[jekyll 설치법](http://blog.saltfactory.net/jekyll/upgrade-github-pages-dependency-versions.html)
-[gem bundler 설치법](http://stackoverflow.com/questions/34459720/rails-bundle-command-not-found/34460297)
-[github pages](https://help.github.com/articles/user-organization-and-project-pages/)
+- [jekyll 설치법](http://blog.saltfactory.net/jekyll/upgrade-github-pages-dependency-versions.html)
+- [gem bundler 설치법](http://stackoverflow.com/questions/34459720/rails-bundle-command-not-found/34460297)
+- [github pages](https://help.github.com/articles/user-organization-and-project-pages/)

@@ -51,14 +51,8 @@ paginate: 5
 
 paginate_path: '/page/:num'
 
-# paginate_category_basepath: '/:name/'
-# paginate_category_layout: 'categories.html'
-
-categories:
-  pagination: 2
-  generate_all: true
-  layout: 'categories.html'
-  directory: categories
+paginate_category_basepath: '/:name/'
+paginate_category_layout: 'categories.html'
 
 
 exclude: [README.md, Gemfile, Gemfile.lock]

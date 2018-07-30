@@ -160,7 +160,7 @@ class App extends Component {
 		return (
 			<div>
 				<h1>
-					Connecting Testing
+					Connection Testing
 				</h1>
 				<div id="wrapper">
 					<table className="table table-bordered">

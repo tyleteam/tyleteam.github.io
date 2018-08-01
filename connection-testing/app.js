@@ -66,7 +66,7 @@ const store = observable({
 		{
 			name: 'pixabay image',
 			domain: 'https://pixabay.com',
-			endpoint: 'https://pixabay.com/get/ea30b40920f4013ed1584d05fb1d4091e170e6d419ac104496f2c87aa5edbcb8_960.jpg',
+			endpoint: 'https://pixabay.com/static/img/sprites.svg',
 			status: '',
 			type: 'image'
 		},
